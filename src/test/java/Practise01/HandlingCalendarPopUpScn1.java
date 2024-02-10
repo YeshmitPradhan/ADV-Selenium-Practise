@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import bsh.ParseException;
 
-public class HandlingCalendarPopUpScn2 
+public class HandlingCalendarPopUpScn1 
 {
 @Test
 public void sample1() throws Throwable
@@ -41,7 +41,7 @@ public void sample1() throws Throwable
 	Thread.sleep(2000);
 	 dst.sendKeys("Del"); 
 	driver.findElement(By.xpath("//p[text()='New Delhi, India']")).click(); 
-	Thread.sleep(2000); 
+	Thread.sleep(1000); 
 	// navigate to departure //
 	driver.findElement(By.xpath("//label[@for=\"departure\"]")).click();
 	 // navigate to desired date in calender 
